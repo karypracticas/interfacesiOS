@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ADo-ch-fgs">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Transactions-->
+        <scene sceneID="LXC-Ep-osb">
+            <objects>
+                <viewController id="ILm-9w-Xdi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Lir-dl-Kgj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ZSy-M0-2tT"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Transactions" id="kMZ-9x-K6l"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QpA-2M-4XA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1744.8" y="259.52023988005999"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="vz4-wR-oca">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ADo-ch-fgs" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="JR7-qg-PyB"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="9ze-xi-Nog">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ILm-9w-Xdi" kind="relationship" relationship="rootViewController" id="NsC-um-0bn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ohv-m1-r24" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="805.60000000000002" y="259.52023988005999"/>
+        </scene>
+    </scenes>
+</document>
